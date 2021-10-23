@@ -1,0 +1,122 @@
+/* DO NOT CHANGE/EDIT ANY OF THIS CSS CODE */
+
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Oswald|Permanent+Marker');
+
+body {
+  margin: 0;
+  background-color: antiquewhite;
+}
+
+html, h1, h2, p {
+  font-family: 'Shadows Into Light', cursive;
+  color: DarkRed;
+}
+
+
+header > h1 {
+  color: #7B3B3B;
+}
+
+main section > h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #668284;
+}
+
+
+main section > p{
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #7B3B3B;
+    font-weight: 600;
+}
+
+
+main section > h1 {
+  margin: 0;
+  padding: 10px;
+}
+
+.about-h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #668284;
+    padding-top:20px;
+}
+
+.contact-h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #668284;
+    padding-top:20px;
+}
+
+header,
+nav,
+main {
+  font-family: 'Oswald', sans-serif;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 70px;
+  margin: 0;
+  font-family: 'Permanent Marker', cursive;
+  background-color : burlywood;
+}
+header p {
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Sans Serif';
+    background-color : burlywood;
+    padding: 20px;
+}
+
+.gap-hr{
+    margin: 50px;
+    background-color : brown;
+    height: 2px;
+}
+
+section ol{
+    padding-left: 15%;
+    padding-right: 15%;
+    color:darkgreen;
+}
+
+section ol li{
+    text-align: left;
+}
+
+main {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+main img{
+    padding-top : 50px;
+    width : 400px;
+    height: auto;
+}
+
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer{
+    background-color: burlywood;
+    min-height: 100px;
+}
+
+footer p {
+    line-height: 100px;
+    color: DarkRed;
+    text-align: center;
+    font-size: 24px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
